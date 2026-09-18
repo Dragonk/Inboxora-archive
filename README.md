@@ -1,3 +1,45 @@
+> [!IMPORTANT]
+> **This repository is archived and read-only.** Active development continues in
+> **[Dragonk/Inboxora](https://github.com/Dragonk/Inboxora)** — a standalone repository that is
+> no longer part of the MailFlow fork network. This archive keeps the complete history, tags and
+> release assets for reference, but its issues, pull requests and releases are frozen and not
+> monitored. Archived on 2026-09-18.
+
+## Why we left the MailFlow fork network
+
+Inboxora began as a fork of [`maathimself/mailflow`](https://github.com/maathimself/mailflow), but
+the two projects no longer share a direction. Staying inside the fork network misrepresented the
+project, so the active repository was rebuilt as a standalone repository — 1:1, with the same
+commits, branches, tags and release assets — and this one was archived.
+
+The reasons, in short:
+
+- **Inboxora is its own project, not a MailFlow derivative.** It has an independent release line
+  (4.x), its own database migration chain, its own conversation engine, calendar, contacts and
+  rebuilt UI. Nothing in it tracks upstream any more.
+- **No more misleading attribution.** GitHub presented the project as "forked from
+  `maathimself/mailflow`" and offered fork and upstream-sync behaviour that never matched how the
+  code is actually maintained.
+- **Full control of repository settings.** A standalone repository owns its releases, branch
+  policy, Actions permissions and secrets outright, with no network-level defaults or "sync fork"
+  prompts shown to users.
+- **An independent fork network.** Repositories in one network share Git objects with each other;
+  a standalone repository keeps the project's objects, refs and pull-request surface
+  self-contained.
+- **Downloads point at a canonical repository.** Releases, installers and source archives are
+  re-published in the standalone repository, so nothing user-facing depends on the fork
+  relationship.
+
+### Why not simply use "Leave fork network"?
+
+GitHub only offers the in-place *Leave fork network* action for forks that have no child forks.
+This repository has one, owned by a third party, which we deliberately did not modify or delete.
+Because archiving is permanent and history must not be lost, the active project was re-created as
+a standalone repository instead. The commits, branches and tags here are identical to those in
+[Dragonk/Inboxora](https://github.com/Dragonk/Inboxora).
+
+---
+
 <p align="center"><img src="media/inboxora-logo.png" width="200" alt="Inboxora logo"></p>
 
 <h1 align="center">Inboxora</h1>
